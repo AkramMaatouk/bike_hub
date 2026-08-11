@@ -1,3 +1,7 @@
 allowBuilds:
+  better-sqlite3: true
+  esbuild: true
   sharp: false
   unrs-resolver: false
+overrides:
+  "drizzle-kit>@esbuild-kit/esm-loader": "npm:tsx@latest"
